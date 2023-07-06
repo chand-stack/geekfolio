@@ -103,6 +103,7 @@
     width: 100px;
 }
 .srvc-container{
+    padding-bottom: 40px;
     background-image: url(/service\ images/background.png),linear-gradient(45deg, rgb(25, 21, 21),rgb(18, 16, 16));
 }
 
@@ -120,3 +121,26 @@
     cursor: pointer;
 }
 .btn-three:hover{ color: red;}
+
+.footer{
+    padding-bottom: 60px;
+    padding-top: 40px;
+    justify-content: space-around;
+    display: flex;
+    color: white;
+    background-image: url(/assets/background.png),linear-gradient(45deg, black, black);
+}
+.footer-logo{
+    width: 250px;
+}
+.footer-para{
+    width: 250px;
+}
+.last{
+    list-style: none;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
