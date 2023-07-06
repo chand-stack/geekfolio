@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgb(15, 13, 13);
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.logo-photo{
+    width: 300px;
+}
+.list{
+    display: flex;
+}
+.item{
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.item:hover{ color: blue;}
+.banner-img{
+    width: 500px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url(/service\ images/background.png),linear-gradient(45deg, rgb(25, 21, 21),rgb(18, 16, 16));
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    
+}
+
+.title{
+    font-size: 60px;
+    font-weight: bold;
+}
+.description{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.btn{
+    margin-top: 15px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 130px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    color: blue;
+}
+.about-img{
+    width: 300px;
+}
+.about-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.btn-two{
+    margin-top: 15px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.btn-two:hover{
+    color: blue;
+}
+.first-srv{
+    background-color: black;
+    color: aliceblue;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 4px 4px 15px gray;
+
+}
+.dg-img{
+    width: 100px;
+}
+.srvc-container{
+    background-image: url(/service\ images/background.png),linear-gradient(45deg, rgb(25, 21, 21),rgb(18, 16, 16));
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+}
+.btn-three{
+    color: white;
+    background-color: gray;
+    border: none;
+    margin-top: 20px;
+    font-size: large;
+    padding: 5px;
+    cursor: pointer;
+}
+.btn-three:hover{ color: red;}
